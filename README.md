@@ -60,16 +60,24 @@ The dataset includes customer information such as:
 
 ## Setup
 
-1. Clone the repository
-2. Create and activate a Python environment
-3. Install the required packages
+How to Run API
+
+1. Train model:
+python src/train.py
+
+2. Start API:
+uvicorn app.main:app --reload
+
+3. Open Swagger:
+http://127.0.0.1:8000/docs
 
 Example:
 
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
-pip -r requirements.txt
+python.exe -m pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
 ## Usage

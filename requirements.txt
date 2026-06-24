@@ -8,3 +8,10 @@ scikit-learn
 xgboost
 missingno
 catboost
+fastapi
+uvicorn
+pydantic
+joblib
+pytest
+mlflow
+evidently
